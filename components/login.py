@@ -90,7 +90,7 @@ def login(mainframe: tk.Frame):
             if success == False:
                 messagebox.showerror(title='LỖI', message='Sai  Mật khẩu!\nVui lòng nhập lại!')
                 login(mainframe)
-        ok = page(mainframe)    
+        #ok = page(mainframe)    
         login_button.grid(row=3, column=0, columnspan=2, pady=30)
         login_button.bind("<Return>", (lambda e: validate_login))
         login_button['command'] = validate_login

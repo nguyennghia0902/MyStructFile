@@ -2,3 +2,6 @@ tkinter
 random
 hashlib
 tkinter.ttk
+re
+datetime
+tkcalendar
